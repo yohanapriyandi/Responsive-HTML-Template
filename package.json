@@ -1,0 +1,14 @@
+{
+  "name": "modern-portfolio",
+  "version": "1.0.0",
+  "description": "Responsive Template Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Yohan Apriyandi",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
