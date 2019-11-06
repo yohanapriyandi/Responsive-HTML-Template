@@ -5,7 +5,7 @@ This Document coming soon cheers guys
 For installation you can clone or download from my github repos
 
 before run on your local machine run this command:
-_npm install_ for install dependencies where I'am using
+__npm install__ for install dependencies where I'am using
 
 this documentation i will upate regular this is a intructions for using on local machine
 
