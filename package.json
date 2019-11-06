@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive Template Website",
   "main": "index.js",
-  "homepage": "https://yohanapriyandi.github.io/responsive-html-template",
+  "homepage": "https://yohanapriyandi.github.io/responsive_template",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
