@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <title>Welcome to my prtofolio</title>
 </head>
 <body id="bg-img">
@@ -44,7 +45,7 @@
             John <span class="text-secondary">Doe</span>
         </h1>
         <h2 class="sm-heading">
-            Fullstack Web Developer & Entrepreneur
+            Hi I'am <span id="typed"></span>
         </h2>
         <div class="icons">
             <a href="#!" class="twitter" >
@@ -62,6 +63,14 @@
         </div>
     </main>
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+        var typed = new Typed("#typed", {
+            strings: ["Fullstack Developer", "Entrepreneur", "Designer"],
+            typeSpeed: 60,
+            startDelay: 100,
+            loop: true
+        });
+    </script>
 
 </body>
 </html>
